@@ -2,73 +2,98 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Igor Ryzhkov</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <title>Igor Ryzhkov | cv</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <h1>Igor Ryzhkov</h1>
-    </header>
-    <div class="container-lg px-3 my-5 markdown-body">
-      <h3 id="contacts">Contacts:</h3>
-
-      <ul>
-        <li><strong>Location:</strong> Batumi, Georgia</li>
-        <li><strong>Phone</strong> +995 55 77 666 50</li>
-        <li><strong>Email:</strong> g7766650@gmail.com</li>
-      </ul>
-
-      <h3 id="about-myself">About myself:</h3>
-
-      <p>
-        I want to learn Front-End Development in <strong>RSSchool</strong>! I
-        have excellent communication skills. I work well in a team. Always
-        looking for opportunities to grow and learn new skills
-      </p>
-
-      <h3 id="skills">Skills:</h3>
-
-      <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript (Basic)</li>
-        <li>Git</li>
-      </ol>
-
-      <h3 id="code-example">Code example:</h3>
-
-      <div class="language-javascript highlighter-rouge">
-        <div class="highlight">
-          <pre
-            class="highlight"
-          ><code><span class="kd">function</span> <span class="nx">sum</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
-  <span class="p">}</span>
-  </code></pre>
+    <div class="container">
+      <header class="header">
+        <div class="title-block">
+        <h1>IGOR RYZHKOV</h1>
+        <h3>Junior Front-end Developer</h2>
         </div>
+      <div class="userpic">
+        <img class="photo" src="./assets/img/userpic.png" alt="my photo">
       </div>
-
-      <h3 id="education">Education:</h3>
-
-      <ol>
-        <li>
-          University: Don State Technical University, Faculty of Software
-          Engineering
-        </li>
-      </ol>
-
-      <h3 id="language">Language:</h3>
-
-      <ol>
-        <li>
-          English - B1 (I have some speaking practice, but not with native
-          speakers)
-        </li>
-        <li>Russian - Native</li>
-      </ol>
+      </header>
+      <main>
+      <nav class="nav">
+        <ul>
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#contacts">CONTACTS</a></li>
+          <li><a href="#skiils">SKILLS</a></li>
+          <li><a href="#code">CODE</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#language">LANGUAGE</a></li>
+        </ul>
+      </nav>
+      <div class="main-container">   
+        <section class="section" id="about">
+          <h2>ABOUT ME</h2>
+          <p>
+            I received a higher education in the field of programming, but after university I started working outside my specialty. 
+            At the moment, a few years later, I decided to return to this area because I like to create beautiful and interesting sites. 
+            Now I am actively exploring new ways and tools to create great projects. 
+            In the future I want to work in a good team under the guidance of an experienced mentor who will help improve my skills.
+          </p>
+        </section>
+          <section class="section" id="contacts">
+          <h2>CONTACTS</h2>
+            <ul>
+              <li><strong>Location:</strong> Batumi, Georgia</li>
+              <li><strong>Phone:</strong> +995 55 77 666 50</li>
+              <li><strong>Email:</strong> g7766650@gmail.com</li>
+              <li><strong>Github:</strong> <a href="https://github.com/Mugetsu40">Mugetsu40</a></li>
+              <li><strong>Telegram:</strong> <a href="https://t.me/mugetsu40">@Mugetsu40</a></li>
+            </ul>
+          </section>
+          <section class="section" id="skills">
+            <h2>SKILLS</h2>
+            <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript (Basic)</li>
+              <li>Git</li>
+            </ol>
+          </section>
+          <section class="section" id="code">
+            <h2>CODE</h2>
+            <pre class="pre"><code>
+    function multiply(num1,num2) {
+      let result = num1 * num2;
+      return result;
+    }
+            </code></pre>
+          </section>
+          <section class="section" id="education">
+            <h2>EDUCATION</h2>
+            <p>  University: Don State Technical University, Faculty of Software
+              Engineering </p>
+          </section>
+          <section class="section" id="language">
+            <h2>LANGUAGE</h2>
+            <ol>
+              <li>
+                English - B1 (I have some speaking practice, but not with native
+                speakers)
+              </li>
+              <li>Russian - Native</li>
+            </ol>
+          </section>
+      </div>
+      </main>
+      <footer class="footer">
+        <a class="my-github" href="https://github.com/mugetsu40"><p>Visit my GitHub</p>
+        </a>
+        <p>© 2022</p>
+        <a href="https://rs.school/js/">
+          <img src="./assets/ico/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+        </a>
+      </footer>
     </div>
-    <footer></footer>
+    </div>
   </body>
 </html>
